@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap");
+
+:root {
+  --Bright-orange: hsl(31, 77%, 52%);
+  --Dark-cyan: hsl(184, 100%, 22%);
+  --Very-dark-cyan: hsl(179, 100%, 13%);
+  --Transparent-white-paragraph: hsla(0, 0%, 100%, 0.75);
+  --Very-light-gray-backgroundheadingsbuttons: hsl(0, 0%, 95%);
+}
+body {
+  font-family: "Lexend Deca", sans-serif;
+  width: 340px;
+  color: var(--Transparent-white-paragraph);
+}
+
+p {
+  font-size: 15px;
+}
+
+.bitter {
+  background-color: var(--Bright-orange);
+  padding-right: 60px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.kola {
+  background-color: var(--Dark-cyan);
+  padding-right: 50px;
+}
+
+.uses {
+  background-color: var(--Very-dark-cyan);
+  padding-right: 60px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+h3 {
+  font-family: "Big Shoulders Display", sans-serif;
+  color: var(--Very-light-gray-backgroundheadingsbuttons);
+}
+
+img {
+  width: 70px;
+}
+
+button {
+  width: 140px;
+  color: var(--Transparent-white-paragraph);
+}
+
+@media (width>768px) {
+  body {
+    width: 1440px;
+    padding: 0 300px;
+  }
+
+  .bitter {
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 0px;
+  }
+
+  .uses {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 0px;
+  }
+}
